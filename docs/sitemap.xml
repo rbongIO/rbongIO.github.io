@@ -3,22 +3,22 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://rbongio.github.io/posts/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/</loc>
+    <loc>https://rbongio.github.io/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/posts/about/</loc>
+    <loc>https://rbongio.github.io/posts/about/</loc>
     <lastmod>2020-12-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://example.com/tags/</loc>
+    <loc>https://rbongio.github.io/tags/</loc>
   </url>
   
 </urlset>

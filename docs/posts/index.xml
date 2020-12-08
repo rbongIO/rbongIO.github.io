@@ -26,8 +26,9 @@
 			<pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
 			
 			<guid>rbongio.github.io/posts/about/</guid>
-			<description>这是关于页面，bongio。</description>
-			<content type="html"><![CDATA[<p>这是关于页面，bongio。</p>
+			<description>Who am I？ bongio，机械本科生。转ITing</description>
+			<content type="html"><![CDATA[<h3 id="who-am-i">Who am I？</h3>
+<p>bongio，机械本科生。转ITing</p>
 ]]></content>
 		</item>
 		

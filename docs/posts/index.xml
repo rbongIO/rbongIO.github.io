@@ -6,8 +6,22 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>zh-cn</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Mon, 07 Dec 2020 01:29:47 +0800</lastBuildDate>
+		<lastBuildDate>Wed, 09 Dec 2020 05:01:59 +0800</lastBuildDate>
 		<atom:link href="rbongio.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Github_pages</title>
+			<link>rbongio.github.io/posts/github_pages/</link>
+			<pubDate>Wed, 09 Dec 2020 05:01:59 +0800</pubDate>
+			
+			<guid>rbongio.github.io/posts/github_pages/</guid>
+			<description>关于github pages即该blog的维护中遇到的一些问题 github pages是一个异步展示的网站。在 git push 之后需要一定时间才会展示在rbongio</description>
+			<content type="html"><![CDATA[<h2 id="关于github-pages即该blog的维护中遇到的一些问题">关于github pages即该blog的维护中遇到的一些问题</h2>
+<ol>
+<li>github pages是一个异步展示的网站。在 <em><strong>git push</strong></em> 之后需要一定时间才会展示在rbongio的网络页面中</li>
+</ol>
+]]></content>
+		</item>
 		
 		<item>
 			<title>First</title>

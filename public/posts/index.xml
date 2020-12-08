@@ -1,20 +1,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Posts on Hugo Hermit</title>
-		<link>https://example.com/posts/</link>
-		<description>Recent content in Posts on Hugo Hermit</description>
+		<title>Posts on To be an engineer</title>
+		<link>rbongio.github.io/posts/</link>
+		<description>Recent content in Posts on To be an engineer</description>
 		<generator>Hugo -- gohugo.io</generator>
-		<language>en-us</language>
+		<language>zh-cn</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
 		<lastBuildDate>Tue, 01 Dec 2020 00:00:00 +0000</lastBuildDate>
-		<atom:link href="https://example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+		<atom:link href="rbongio.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
 		
 		<item>
 			<title>关于</title>
-			<link>https://example.com/posts/about/</link>
+			<link>rbongio.github.io/posts/about/</link>
 			<pubDate>Tue, 01 Dec 2020 00:00:00 +0000</pubDate>
 			
-			<guid>https://example.com/posts/about/</guid>
+			<guid>rbongio.github.io/posts/about/</guid>
 			<description>这是关于页面，bongio。</description>
 			<content type="html"><![CDATA[<p>这是关于页面，bongio。</p>
 ]]></content>

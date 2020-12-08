@@ -3,22 +3,27 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://rbongio.github.io/posts/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+    <loc>rbongio.github.io/posts/first/</loc>
+    <lastmod>2020-12-07T02:12:52+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rbongio.github.io/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+    <loc>rbongio.github.io/posts/</loc>
+    <lastmod>2020-12-07T02:12:52+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rbongio.github.io/posts/about/</loc>
-    <lastmod>2020-12-01T00:00:00+00:00</lastmod>
+    <loc>rbongio.github.io/</loc>
+    <lastmod>2020-12-07T02:12:52+08:00</lastmod>
   </url>
   
   <url>
-    <loc>https://rbongio.github.io/tags/</loc>
+    <loc>rbongio.github.io/posts/about/</loc>
+    <lastmod>2020-12-07T01:43:47+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>rbongio.github.io/tags/</loc>
   </url>
   
 </urlset>

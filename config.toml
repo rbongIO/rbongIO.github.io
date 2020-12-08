@@ -1,9 +1,9 @@
-baseURL = "https://rbongio.github.io"
-languageCode = "en-us"
+baseURL = "rbongio.github.io"
+languageCode = "zh-cn"
 defaultContentLanguage = "en"
-title = "To Be An engineer"
+title = "To be an engineer"
 theme = "hermit"
-# enableGitInfo = true
+enableGitInfo = true
 pygmentsCodefences  = true
 pygmentsUseClasses  = true
 hasCJKLanguage = true  # If Chinese/Japanese/Korean is your main content language, enable this to make wordCount works right.
@@ -14,7 +14,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
 # disqusShortname = "yourdiscussshortname"
 
 [author]
-  name = "bongio"
+  name = "Bongio"
 
 [blackfriday]
   # hrefTargetBlank = true
@@ -41,7 +41,7 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # bgImg = ""  # Homepage background-image URL
 
   # Prefix of link to the git commit detail page. GitInfo must be enabled.
-  # gitUrl = "https://github.com/bongio/repository/commit/"
+  # gitUrl = "https://github.com/username/repository/commit/"
 
   # Toggling this option needs to rebuild SCSS, requires Hugo extended version
   justifyContent = false  # Set "text-align: justify" to `.content`.
@@ -56,12 +56,13 @@ enableEmoji = true  # Shorthand emojis in content files - https://gohugo.io/func
   # Social Icons
   # Check https://github.com/Track3/hermit#social-icons for more info.
   [[params.social]]
-    name = "email"
-    url = "wxyuan5@163.com"
+    name = "github"
+    url = "https://github.com/bongio"
 
   [[params.social]]
-    name = "github"
-    url = "https://https://github.com/rbongIO"
+    name = "qq"
+    url = "http://wpa.qq.com/msgrd?v=3&uin=&site=qq&menu=yes"
+
 
 [menu]
 

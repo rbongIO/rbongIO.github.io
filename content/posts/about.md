@@ -3,4 +3,5 @@ title: "关于"
 date: "2020-12-01"
 ---
 
-这是关于页面，bongio。
+### Who am I？ 
+bongio，机械本科生。转ITing

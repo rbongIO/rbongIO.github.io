@@ -7,7 +7,16 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 09 Dec 2020 05:01:59 +0800</lastBuildDate><atom:link href="rbongio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 12 Dec 2020 05:06:49 +0800</lastBuildDate><atom:link href="rbongio.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tdd</title>
+      <link>rbongio.github.io/posts/tdd/</link>
+      <pubDate>Sat, 12 Dec 2020 05:06:49 +0800</pubDate>
+      
+      <guid>rbongio.github.io/posts/tdd/</guid>
+      <description>TDD（Test Driven Developement） 目的 加快开发速度 质量内建 质量检查（QC）：面向产品，发现缺陷 质量保证（QA）：将缺陷消灭在萌芽状</description>
+    </item>
+    
     <item>
       <title>Github_pages</title>
       <link>rbongio.github.io/posts/github_pages/</link>

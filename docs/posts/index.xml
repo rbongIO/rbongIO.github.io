@@ -6,8 +6,130 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>zh-cn</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Wed, 09 Dec 2020 05:01:59 +0800</lastBuildDate>
+		<lastBuildDate>Sat, 12 Dec 2020 05:06:49 +0800</lastBuildDate>
 		<atom:link href="rbongio.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>Tdd</title>
+			<link>rbongio.github.io/posts/tdd/</link>
+			<pubDate>Sat, 12 Dec 2020 05:06:49 +0800</pubDate>
+			
+			<guid>rbongio.github.io/posts/tdd/</guid>
+			<description>TDD（Test Driven Developement） 目的 加快开发速度 质量内建 质量检查（QC）：面向产品，发现缺陷 质量保证（QA）：将缺陷消灭在萌芽状</description>
+			<content type="html"><![CDATA[<h1 id="tddtest-driven-developement">TDD（Test Driven Developement）</h1>
+<h4 id="目的">目的</h4>
+<p>加快开发速度</p>
+<h4 id="质量内建">质量内建</h4>
+<ol>
+<li>
+<p>质量检查（QC）：面向产品，发现缺陷</p>
+</li>
+<li>
+<p>质量保证（QA）：将缺陷消灭在萌芽状态，力图确保以正确的方式做正确的事情</p>
+</li>
+</ol>
+<h4 id="质量存在的软件生命周期阶段">质量存在的软件生命周期阶段</h4>
+<h6 id="理想情况下">理想情况下：</h6>
+<p>测试——QC</p>
+<p>编码——QA</p>
+<h3 id="三大准则">三大准则</h3>
+<ol>
+<li>
+<p>从写测试开始</p>
+</li>
+<li>
+<p>一旦测试失败，就开始写功能</p>
+</li>
+<li>
+<p>一旦功能通过测试，就开始写新测试</p>
+</li>
+</ol>
+<h4 id="一个循环">一个循环</h4>
+<p>1 &ndash;&gt; 2 &ndash;&gt; 3&ndash;&gt;2&ndash;&gt;3&ndash;&gt; &hellip;. done</p>
+<hr>
+<h2 id="测试">测试</h2>
+<h4 id="黑盒测试功能测试">黑盒测试（功能测试）</h4>
+<ul>
+<li>
+<p>优点：</p>
+<ul>
+<li>
+<p>可高效测试大段代码块；</p>
+</li>
+<li>
+<p>无需访问和理解代码，也不要求测试人员知道如何编写代码；</p>
+</li>
+<li>
+<p>将用户角度和开发人员角度分离。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>缺点：</p>
+<ul>
+<li>
+<p>覆盖率有限，因为只执行部分测试场景；</p>
+</li>
+<li>
+<p>测试效率地下，因为测试人员对软件内部构造一无所知；</p>
+</li>
+<li>
+<p>测试缺乏针对性，因为测试人员对应用程序的了解有限。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="白盒测试结构测试">白盒测试（结构测试）</h4>
+<ul>
+<li>
+<p>优点</p>
+<ul>
+<li>
+<p>知道受测软件的内部结构有助于进行详细测试；</p>
+</li>
+<li>
+<p>能够发现隐藏的错误；</p>
+</li>
+<li>
+<p>可帮助程序员反省；</p>
+</li>
+<li>
+<p>由于知道软件的内部构造，可以最大限度的<em>提高测试覆盖率</em>。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>缺点：</p>
+<ul>
+<li>
+<p>可能无法发现未实现或缺失的功能；</p>
+</li>
+<li>
+<p>需要对受测软件的内部构造有大致认识；</p>
+</li>
+<li>
+<p>测试通常与产品代码的实现细节紧密耦合，导致重构代码后原本应该通过的测试未能通过。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="测试金字塔">测试金字塔</h4>
+<hr>
+<h3 id="tdd-该项目内部各文件夹内容">TDD 该项目内部各文件夹内容</h3>
+<hr>
+<h5 id="example01-tdd尝试">example01 ：TDD尝试</h5>
+<ol>
+<li>使用[]Test来进行批量测试数据</li>
+<li>got，want模式是一个比较简单的test模式
+<div class="highlight"><pre class="chroma"><code class="language-go" data-lang="go"><span class="nx">got</span>  <span class="o">:=</span> <span class="nf">got</span><span class="p">()</span>  
+<span class="nx">want</span> <span class="o">:=</span> <span class="nf">want</span><span class="p">()</span>  
+<span class="k">if</span> <span class="nx">got</span> <span class="o">!=</span> <span class="nx">want</span><span class="p">{</span>  
+<span class="nx">t</span><span class="p">.</span><span class="nf">Errorf</span><span class="p">()</span> <span class="c1">//}  
+</span></code></pre></div></li>
+<li>Go 1.14后引入了一个新的对于want 字符串的判断方式</li>
+</ol>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Github_pages</title>

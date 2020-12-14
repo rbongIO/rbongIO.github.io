@@ -3,28 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>rbongio.github.io/posts/grpc-install/</loc>
+    <lastmod>2020-12-15T00:55:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>rbongio.github.io/tags/patch/</loc>
+    <lastmod>2020-12-15T00:55:41+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>rbongio.github.io/posts/</loc>
-    <lastmod>2020-12-12T05:06:49+08:00</lastmod>
+    <lastmod>2020-12-15T00:55:41+08:00</lastmod>
   </url>
   
   <url>
     <loc>rbongio.github.io/tags/</loc>
-    <lastmod>2020-12-12T05:06:49+08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>rbongio.github.io/posts/tdd/</loc>
-    <lastmod>2020-12-12T05:06:49+08:00</lastmod>
+    <lastmod>2020-12-15T00:55:41+08:00</lastmod>
   </url>
   
   <url>
     <loc>rbongio.github.io/</loc>
-    <lastmod>2020-12-12T05:06:49+08:00</lastmod>
+    <lastmod>2020-12-15T00:55:41+08:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>rbongio.github.io/posts/tdd/</loc>
+    <lastmod>2020-12-12T05:10:00+08:00</lastmod>
   </url>
   
   <url>
     <loc>rbongio.github.io/tags/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2020-12-12T05:06:49+08:00</lastmod>
+    <lastmod>2020-12-12T05:10:00+08:00</lastmod>
   </url>
   
   <url>

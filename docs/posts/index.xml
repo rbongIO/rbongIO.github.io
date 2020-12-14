@@ -6,8 +6,55 @@
 		<generator>Hugo -- gohugo.io</generator>
 		<language>zh-cn</language>
 		<copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
-		<lastBuildDate>Sat, 12 Dec 2020 05:06:49 +0800</lastBuildDate>
+		<lastBuildDate>Tue, 15 Dec 2020 00:55:41 +0800</lastBuildDate>
 		<atom:link href="rbongio.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+		
+		<item>
+			<title>GRPC Install</title>
+			<link>rbongio.github.io/posts/grpc-install/</link>
+			<pubDate>Tue, 15 Dec 2020 00:55:41 +0800</pubDate>
+			
+			<guid>rbongio.github.io/posts/grpc-install/</guid>
+			<description>gRPC 安装 下载最新protobuf Release：protubuf Release 下载对应的zip或tar，然后解压 执行以下，安装 protoc ./configure make make check make install 执行以下，安装</description>
+			<content type="html"><![CDATA[<h3 id="grpc">gRPC</h3>
+<h4 id="安装">安装</h4>
+<ol>
+<li>
+<p>下载最新protobuf Release：<a href="https://github.com/grpc/grpc/releases">protubuf Release</a></p>
+</li>
+<li>
+<p>下载对应的zip或tar，然后解压</p>
+</li>
+<li>
+<p>执行以下，安装 protoc</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">./configure
+make
+make check
+make install   
+</code></pre></div></li>
+<li>
+<p>执行以下，安装对应gRPC生成插件</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">go get -u google.golang.org/protobuf/cmd/protoc-gen-go
+go get -u google.golang.org/grpc/cmd/protoc-gen-go-grpc
+</code></pre></div></li>
+<li>
+<p>执行</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">protoc --go-grpc_out<span class="o">=</span>:. hello.proto
+</code></pre></div></li>
+</ol>
+<p>    验证能否生成 *grpc.pb.go</p>
+<ol start="6">
+<li>
+<p>如果能够生成，则安装完成，若失败，且*<!-- raw HTML omitted -->proto-gen-go<!-- raw HTML omitted -->*需要PATH 为加入环境变量，则将GOPATH加入环境变量。</p>
+</li>
+<li>
+<p>此为加入环境变量后依然无法运行的解决方法.<strong>慎用</strong>！</p>
+<div class="highlight"><pre class="chroma"><code class="language-shell" data-lang="shell">sudo cp ~/go/bin/protoc-gen-go-grpc /usr/local/go/bin
+sudo cp ~/go/bin/protoc-gen-go /usr/local/go/bin
+</code></pre></div></li>
+</ol>
+]]></content>
+		</item>
 		
 		<item>
 			<title>Tdd</title>

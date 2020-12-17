@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>工作所得 on To be an engineer</title>
+    <link>rbongio.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%89%80%E5%BE%97/</link>
+    <description>Recent content in 工作所得 on To be an engineer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Thu, 17 Dec 2020 21:22:03 +0800</lastBuildDate><atom:link href="rbongio.github.io/tags/%E5%B7%A5%E4%BD%9C%E6%89%80%E5%BE%97/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>20201217工作总结avatarUpload</title>
+      <link>rbongio.github.io/posts/20201217%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93avatarupload/</link>
+      <pubDate>Thu, 17 Dec 2020 21:22:03 +0800</pubDate>
+      
+      <guid>rbongio.github.io/posts/20201217%E5%B7%A5%E4%BD%9C%E6%80%BB%E7%BB%93avatarupload/</guid>
+      <description>2020.17.17 关键词 gin、xorm、gRPC、华为OBS gin ctx.FormFIle() 直接获取到文件流的柄 ctx.GetHeader（header 字段名） ctx.Query(query Json) xorm xorm使用go</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,113 @@
+// 权限服务相关rpc
+
+syntax = "proto3";
+
+import "google/protobuf/any.proto";
+
+package tizi.local.lauthority;
+
+option go_package = "proto/authority;tizi_local_proto_lauthority";
+
+service AuthService{
+    rpc Login (LoginRequest) returns (LoginResponse) {}
+    rpc Logout (LogoutRequest) returns (Error) {}
+    rpc RefreshToken (RefreshTokenRequest) returns (RefreshTokenResponse) {}
+    rpc GetUserInfo (UserRequest) returns (User) {}
+    rpc UpdateUserInfo (User) returns (Error) {}
+    rpc CheckAuth (CheckAuthRequest) returns (CheckAuthResponse) {}
+    rpc UpdateUserAdavtor(User)returns(Error) {}
+}
+
+service SmsService{
+    rpc GetSmsCode (SmsCodeRequest) returns (Error){}
+}
+
+message LoginRequest{
+    string loginType = 1;
+    string mobile = 2;
+    string token = 3;
+    string smsCode = 4;
+}
+
+message LoginResponse{
+    string token = 1;
+    string uid = 2;
+    int64 ttl = 3;
+    string userName = 4;
+}
+
+message LogoutRequest{
+    string token = 1;
+    string uid = 2;
+}
+
+
+message RefreshTokenRequest{
+    string token = 1;
+    string uid = 2;
+}
+
+message RefreshTokenResponse{
+    string token = 1;
+    int64 ttl = 2;
+}
+
+message UserRequest{
+    string uid = 1;
+}
+
+message User{
+    string  userName = 1;
+    string  uid = 2;
+    string  email = 3;
+    string  mobile = 4;
+    string  description = 5;
+    Sex     sex  = 6;
+    string  school = 7;
+    string  location = 8;
+    string  adavtor_url = 9;
+}
+
+enum Sex
+{
+    male = 0;
+    female = 1;
+    undecided = 2;
+}
+
+//message UpdateUserRequest{
+//    string uid = 1;
+//    string email = 2;
+//    string mobile = 3;
+//    string description = 4;
+//    Sex    sex = 5;
+//    string school = 6;
+//    string location = 7;
+//    string userName = 8;
+//}
+
+message CheckAuthRequest{
+    string token = 1;
+    string uid = 2;
+}
+
+message CheckAuthResponse{
+    bool pass = 1;
+}
+
+enum ErrCode //枚举消息类型
+{
+    Success = 0;
+    Failed = 1;
+}
+
+message Error{
+    ErrCode errCode = 1;
+    string errMsg = 2;
+    repeated google.protobuf.Any details = 3;
+}
+
+message SmsCodeRequest{
+    string mobile = 1;
+    string action = 2;
+}

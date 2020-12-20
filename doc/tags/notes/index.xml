@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>notes on To be an engineer</title>
+    <link>rbongio.github.io/tags/notes/</link>
+    <description>Recent content in notes on To be an engineer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 09 Dec 2020 05:01:59 +0800</lastBuildDate><atom:link href="rbongio.github.io/tags/notes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github_pages</title>
+      <link>rbongio.github.io/posts/github_pages/</link>
+      <pubDate>Wed, 09 Dec 2020 05:01:59 +0800</pubDate>
+      
+      <guid>rbongio.github.io/posts/github_pages/</guid>
+      <description>关于github pages即该blog的维护中遇到的一些问题 github pages是一个异步展示的网站。在 git push 之后需要一定时间才会展示在rbongio</description>
+    </item>
+    
+  </channel>
+</rss>

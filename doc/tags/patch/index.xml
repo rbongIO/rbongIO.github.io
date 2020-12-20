@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>patch on To be an engineer</title>
+    <link>rbongio.github.io/tags/patch/</link>
+    <description>Recent content in patch on To be an engineer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright>
+    <lastBuildDate>Tue, 15 Dec 2020 00:55:41 +0800</lastBuildDate><atom:link href="rbongio.github.io/tags/patch/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GRPC Install</title>
+      <link>rbongio.github.io/posts/grpc-install/</link>
+      <pubDate>Tue, 15 Dec 2020 00:55:41 +0800</pubDate>
+      
+      <guid>rbongio.github.io/posts/grpc-install/</guid>
+      <description>gRPC 安装 下载最新protobuf Release：protubuf Release 下载对应的zip或tar，然后解压 执行以下，安装 protoc ./configure make make check make install 执行以下，安装</description>
+    </item>
+    
+  </channel>
+</rss>
